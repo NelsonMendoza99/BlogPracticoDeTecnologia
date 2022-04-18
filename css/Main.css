@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
+    text-align: justify;
     
 }
 a {
@@ -198,8 +199,9 @@ footer p {
     height: 100%;
 }
 .contact-main-container div a {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     padding-bottom: 5px;
+    font-weight: bold;
 }
 .contact-main-container .contact-left, .contact-right {
     text-align: initial;
@@ -207,6 +209,7 @@ footer p {
 }
 .contact-main-container img {
     width: 100px;
+    margin-right: 25px;
 }
 /* Profile */
 .profile-main-container {
@@ -223,6 +226,7 @@ footer p {
 }
 .profile-main-container .profile-container {
     display: flex;
+    place-items: center;
 }
 .profile-main-proyects {
     padding: 0 50px 40px;
